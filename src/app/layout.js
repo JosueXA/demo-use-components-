@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
 
         <div className="bg-gray-500 relative">
-          <Image src={backgroundImage} className="absolute top-0"/>
+          <Image fill src={backgroundImage} className="absolute top-0"/>
         </div>
 
         {children}

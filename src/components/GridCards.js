@@ -37,7 +37,7 @@ export const GridCard = async() => {
         {
           cards.map( card => {
             return (
-              <SimpleCard {...card} />
+              <SimpleCard key={ card.name } {...card} />
             )
           })
         }
